@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.image {
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.navbar {
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar .logo {
+  width: 78px;
+  height: 90px;
+}
+
+.navbar .logo img {
+  width: 78px;
+  height: 90px;
+}
+
+.navbar .list1 {
+  margin-left: 40px;
+  display: flex; 
+  gap: 2em;
+  list-style-type: none;
+}
+
+.navbar .list2 {
+  margin-right: 40px;
+  display: flex; 
+  gap: 2em;
+  list-style-type: none;
+}
+
+a {
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 200px;
+}
+
+header p {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.block {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainbar {
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  width: 400px;
+  border: solid, black, 1px;
+}
+
+.photos {
+  background-color: rgb(59, 58, 56);
+  margin: 0;
+}
+
+.photos img {
+  height: 100px;
+  width: 100px;
+}
