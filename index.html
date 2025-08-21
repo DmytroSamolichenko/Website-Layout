@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebPage Layout</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
   <nav class="navbar">
     <ul class="list1">
       <li><a href="#">About Us</a></li>
-      <li><a href="#">Contact Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
     </ul>
     <div class="logo">
       <img src="logo.png" alt="logo-image">
@@ -33,20 +34,22 @@
     <p>Your brand, your product, your big idea. it is worth pursuing.<br /> We believe in creating opportunities for
       elite
       brands, intrepid startups,<br /> and passionate innovators to change the world.</p>
+      
     <div class="block">
-      <div class="block-item">Idea</div>
-      <div class="block-item">Design</div>
-      <div class="block-item">Development</div>
-      <div class="block-item">Success</div>
+      <div class="block-item"><i class="fas fa-hand"></i></br>Idea</div>
+      <div class="block-item"><i class="fas fa-car"></i></br>Design</div>
+      <div class="block-item"><i class="fas fa-box"></i></br>Development</div>
+      <div class="block-item"><i class="fas fa-check"></i></br>Success</div>
     </div>
   </header>
   <main class="mainbar">
     <aside>
       <h2>We design delightful digital experiences</h2>
-      <p>We help organisations radically improve their websites and create exciting new digital products.<br /><br />
+      <p id="parag">We help organisations radically improve their websites and create exciting new digital
+        products.<br /><br />
         We combine a unique lean approach with our knowledge of human behaviour and the principles of user-centred
         desips</p>
-      <button>CONTACT US</button>
+      <button id="button">CONTACT US</button>
     </aside>
     <div class="photos">
       <img src="photos/pumalogo.png" alt="/">
@@ -60,7 +63,7 @@
       <img src="photos/zaralogo.png" alt="/">
     </div>
   </main>
-  <script link="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

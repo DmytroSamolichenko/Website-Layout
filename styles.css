@@ -74,6 +74,9 @@ header p {
   text-align: center;
 }
 
+i {
+  margin-bottom: 30px;
+}
 .block {
   margin-top: 200px;
   display: flex;
