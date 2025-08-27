@@ -88,6 +88,7 @@ header .fa-minus {
   margin-top: 200px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .block-item {
@@ -95,7 +96,7 @@ header .fa-minus {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  flex-wrap: wrap;
 }
 
 i {
