@@ -11,11 +11,15 @@ body {
 }
 
 .image {
-  width: 100%;
-}
-
-.image img {
-  width: 100%;
+  background: url("mountain.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: rgba(238, 241, 238, 0.825);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.6);
 }
 
 .navbar {
