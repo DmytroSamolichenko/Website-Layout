@@ -104,16 +104,13 @@ i {
   flex-wrap: wrap;
 }
 
-.fa-grip-lines {
-  text-align: center;
-}
-
 aside {
   color: white;
   width: 400px;
   background-color: rgb(22, 22, 34);
   text-align: center;
-  padding: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
 }
 
 aside h2 {
@@ -131,9 +128,14 @@ aside button {
   height: 50px;
   width: 150px;
   background: grey;
-  border-radius: 5%;
+  border-radius: 20px;
   border-color: transparent;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+#button:hover {
+  background-color: rgb(86, 86, 87);
+  color: rgb(255, 255, 255);
 }
 
 .photos {
